@@ -12,8 +12,8 @@ Android-Box-Layout
     <table>
         <tr>
             <td>
-                Android: Box Layout to put contents in a glossy box with ultimate view (Check out
-                screen shots).
+                <b>  Android: </b> Box Layout to put contents in a glossy box with ultimate view (Check out
+                screen shots. If its taking more time to load then just download from root directory of trunk)
             </td>
         </tr>
          <tr>
@@ -61,6 +61,8 @@ Android-Box-Layout
                         container.Box Layout fits into this requirement at its best. </li>
                     <li>This layout provides a box like structure with easy method of integration to any
                         android app.</li>
+                        <li>All the images are glossy images. You can put any background image and the total look
+                        and feel will be different.</li>
                 </ul>
             </td>
         </tr>
