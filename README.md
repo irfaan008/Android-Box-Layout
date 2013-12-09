@@ -117,12 +117,14 @@ Android-Box-Layout
 		box.setRow4("Click to Backup", "Backup Now");
 		box.showDevider(true);
 		
-<br/> 8.	For more detail download "SampleBoxLayout".
+<br/> 8.	For more detail download "SampleBoxLayout" from the root of trunk or below link <br/>
+ https://github.com/irfaan008/Android-Box-Layout/blob/master/SampleBoxLayout.zip
+ 
 <br/> 9.	To assign listener to button you can get object of button by calling
 
 	Button btn=box.getBodyCell42();
 	
-<br/> 10. In the same all the textview are exposed using this method for ex if you need to change styling
+<br/> 10. In the same way all the textviews are exposed using this method for ex if you need to change styling
 			of cell23 then you might go in this way-
 			
 			TextView tv=box.getBodyCell23();
@@ -133,4 +135,5 @@ Android-Box-Layout
 			basic skills.
 			
 <br/> 12.	Please note that all the codes are available under license of MIT and you need to get
-			written permission before publishing any app derived from this library. Contact me on irfaan.aa@gmail.com
+			written permission prior to publish any app derived from this library. 
+			<br/><h3>Contact me in case of query irfaan.aa@gmail.com<h3/>
