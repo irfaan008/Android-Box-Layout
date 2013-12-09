@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlTitle"
+        style="@style/rlTitle" >
+
+        <ImageView
+            android:id="@+id/ivTitleLeftIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:contentDescription="Left Thumbnail for Title"
+            android:src="@null" />
+
+        <TextView
+            android:id="@+id/tvTitleCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Title"
+            android:textColor="#FFCC00"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+
+        <ImageView
+            android:id="@+id/ivTitleRightIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="Right Thumbnail for Title"
+            android:padding="18dip"
+            android:src="@drawable/glossy_box_title_down_aerrow" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBody"
+        style="@style/rlBody" >
+
+        <RelativeLayout
+            android:id="@+id/rlBodyRow1"
+            style="@style/rlRow"
+            android:layout_marginTop="10dip"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/tvBodyCell11"
+                style="@style/tvBodyLeft"
+                android:text="Body Cell11" />
+
+            <TextView
+                android:id="@+id/tvBodyCell12"
+                style="@style/tvBodyRight"
+                android:text="Body Cell12" />
+        </RelativeLayout>
+        <!-- just draw a red line -->
+
+        <View
+            android:id="@+id/drRow1"
+            style="@style/devider"
+            android:layout_below="@id/rlBodyRow1" />
+
+        <RelativeLayout
+            android:id="@+id/rlBodyRow2"
+            style="@style/rlRow"
+            android:layout_below="@id/drRow1"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/tvBodyCell21"
+                style="@style/tvBodyLeft"
+                android:text="Body Cell21" />
+
+            <TextView
+                android:id="@+id/tvBodyCell22"
+                style="@style/tvBodyRight"
+                android:text="Body Cell22" />
+        </RelativeLayout>
+        <!-- just draw a red line -->
+
+        <View
+            android:id="@+id/drRow2"
+            style="@style/devider"
+            android:layout_below="@id/rlBodyRow2" />
+
+        <RelativeLayout
+            android:id="@+id/rlBodyRow3"
+            style="@style/rlRow"
+            android:layout_below="@id/drRow2" >
+
+            <TextView
+                android:id="@+id/tvBodyCell31"
+                style="@style/tvBodyLeft"
+                android:text="Body Cell31" />
+
+            <TextView
+                android:id="@+id/tvBodyCell32"
+                style="@style/tvBodyRight"
+                android:text="Body Cell32" />
+        </RelativeLayout>
+        <!-- just draw a red line -->
+
+        <View
+            android:id="@+id/drRow3"
+            style="@style/devider"
+            android:layout_below="@id/rlBodyRow3" />
+
+        <RelativeLayout
+            android:id="@+id/rlBodyRow4"
+            style="@style/rlRow"
+            android:layout_below="@id/drRow3"
+            android:layout_marginTop="10dip"
+            android:paddingBottom="10dip" >
+
+            <TextView
+                android:id="@+id/tvBodyCell41"
+                style="@style/tvBodyLeft"
+                android:text="Body Cell41" />
+
+            <Button
+                android:id="@+id/bBodyCell42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/bg_button_green"
+                android:text="Body Cell42" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
