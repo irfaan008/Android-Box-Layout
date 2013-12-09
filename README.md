@@ -23,24 +23,24 @@ Android-Box-Layout
                         <td>
                             Screenshot 1:
                             <br />
-                            <img src="Screen1.jpg" width="280px" height="480px" alt="Screen 1" />
+                            <img src="Screen1.jpg" alt="Screen 1" />
                         </td>
                         <td>
                             Screenshot 2:
                             <br />
-                            <img src="Screen2.jpg" width="280px" height="480px" alt="Screen 2" />
+                            <img src="Screen2.jpg" alt="Screen 2" />
                         </td>
                     </tr>
                     <tr>
                         <td>
                             Screenshot 3:
                             <br />
-                            <img src="Screen3.jpg" width="280px" height="480px" alt="Screen 3" />
+                            <img src="Screen3.jpg"  alt="Screen 3" />
                         </td>
                         <td>
                             Screenshot 4:
                             <br />
-                            <img src="Screen4.jpg" width="280px" height="480px" alt="Screen 4" />
+                            <img src="Screen4.jpg" alt="Screen 4" />
                         </td>
                     </tr>
                 </table>
@@ -116,3 +116,21 @@ Android-Box-Layout
 				null);
 		box.setRow4("Click to Backup", "Backup Now");
 		box.showDevider(true);
+		
+<br/> 8.	For more detail download "SampleBoxLayout".
+<br/> 9.	To assign listener to button you can get object of button by calling
+
+	Button btn=box.getBodyCell42();
+	
+<br/> 10. In the same all the textview are exposed using this method for ex if you need to change styling
+			of cell23 then you might go in this way-
+			
+			TextView tv=box.getBodyCell23();
+			//	tv.setColor(#FF0000)... do your stuff here
+			
+			
+<br/> 11.	For more customization head over to library and edit the res/layout_box.xml file as per your
+			basic skills.
+			
+<br/> 12.	Please note that all the codes are available under license of MIT and you need to get
+			written permission before publishing any app derived from this library. Contact me on irfaan.aa@gmail.com
